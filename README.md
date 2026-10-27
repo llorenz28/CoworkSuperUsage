@@ -36,13 +36,14 @@ https://github.com/user-attachments/assets/f9f3fb74-f162-45a1-ab34-1977b0557cbb
 
 ## Setup
 
-1. Download the PBIX for the ready-to-use report, or the PBIT to create a fresh report instance.
-2. Keep the two CSV files together in a folder:
-   - `CoworkWeeklyMetrics.csv`: `PersonId`, `MetricDate`, `TaskCategory`, `TaskType`, `Total credits used`, `Total Cowork tasks`, `PeopleHistoricalId`
-   - `PeopleMetaData.csv`: `PeopleHistoricalId`, `Organization`, `FunctionType`, `IsCopilotLicensed`
-3. In Power BI Desktop, update the data-source folder/path if prompted.
-4. Confirm the relationship uses `PeopleHistoricalId`, then refresh.
-5. Review the interpretation guide before presenting findings.
+Use the [complete setup guide](SETUP.md) for the exact two-file contract, field types, refresh procedure, validation checks, and model behavior.
+
+Quick start:
+
+1. Download the PBIX for the ready-to-use synthetic demo, or the PBIT to create a fresh report instance.
+2. Keep `CoworkWeeklyMetrics.csv` and `PeopleMetaData.csv` together in one folder. Do not rename their headers.
+3. Open the report or template in a current Power BI Desktop release, set the requested source path to that folder, and refresh.
+4. Confirm the `PeopleHistoricalId` relationship and validate totals, dates, and filters before publishing.
 
 ## Privacy and interpretation
 
@@ -61,6 +62,10 @@ https://github.com/user-attachments/assets/f9f3fb74-f162-45a1-ab34-1977b0557cbb
 - **Power BI version warning:** update Power BI Desktop and retry.
 
 Public access requires no GitHub sign-in for browsing or downloading these files.
+
+## Related Microsoft reference
+
+This report is a Cowork-specific implementation with its own schema and model; it does not ingest the Viva Insights Person Query schema. For the broader Microsoft super-user methodology and its separate setup requirements, see [`microsoft/DecodingSuperUsage`](https://github.com/microsoft/DecodingSuperUsage).
 
 ## Project policies
 
