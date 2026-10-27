@@ -1,0 +1,6 @@
+*.pbix binary
+*.pbit binary
+*.pptx binary
+*.mp4 binary
+*.png binary
+*.csv text eol=lf
