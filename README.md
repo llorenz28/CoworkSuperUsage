@@ -21,6 +21,23 @@ https://github.com/user-attachments/assets/f9f3fb74-f162-45a1-ab34-1977b0557cbb
 - [Synthetic people metadata](sample-data/PeopleMetaData.csv)
 - [Release manifest](RELEASE-MANIFEST.md)
 
+## Get your Cowork data
+
+> Export by week to support multi-week trend analysis.
+
+1. Go to [aka.ms/copilotdashboard](https://aka.ms/copilotdashboard).
+2. Open **Consumption Dashboard**.
+3. Select **Explore Cowork**.
+4. Click **Export data**.
+5. Select **Create new**.
+6. Choose **Export by week**.
+7. Click **Export to CSV**.
+8. Save or rename the export as `CoworkWeeklyMetrics.csv`.
+9. Prepare `PeopleMetaData.csv` using the [included sample schema](sample-data/PeopleMetaData.csv).
+10. Place both files in one folder. Open the PBIT, enter that folder for the required `DataFolder` parameter, and refresh.
+
+See [SETUP.md](SETUP.md) for prerequisites, schemas, validation, and troubleshooting.
+
 ## Eight report pages
 
 | Page | What it answers |
@@ -33,17 +50,6 @@ https://github.com/user-attachments/assets/f9f3fb74-f162-45a1-ab34-1977b0557cbb
 | Appendix - Share Shift | How does activity share move among tiers over time? |
 | Metric Glossary | How are the report's measures and terms defined? |
 | Category assumptions | How are task categories interpreted and grouped? |
-
-## Setup
-
-Use the [complete setup guide](SETUP.md) for the exact two-file contract, field types, refresh procedure, validation checks, and model behavior.
-
-Quick start:
-
-1. Download the PBIX for the ready-to-use synthetic demo, or the PBIT to create a fresh report instance.
-2. Keep `CoworkWeeklyMetrics.csv` and `PeopleMetaData.csv` together in one folder. Do not rename their headers.
-3. Open the report or template in a current Power BI Desktop release, set the requested source path to that folder, and refresh.
-4. Confirm the `PeopleHistoricalId` relationship and validate totals, dates, and filters before publishing.
 
 ## Privacy and interpretation
 
