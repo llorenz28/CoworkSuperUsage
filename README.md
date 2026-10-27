@@ -6,9 +6,7 @@ A customer-ready Power BI report for exploring tier-focused Cowork super-user ac
 
 ## Walkthrough
 
-<video src="media/CoworkSuperUsage-Walkthrough.mp4" controls width="100%" poster="assets/overview.png">
-  Your browser does not support embedded video.
-</video>
+https://github.com/user-attachments/assets/f9f3fb74-f162-45a1-ab34-1977b0557cbb
 
 **[Open or download the 3:43 natural-voice walkthrough](media/CoworkSuperUsage-Walkthrough.mp4)**  
 ![Cowork Super Usage overview](assets/overview.png)
@@ -23,7 +21,7 @@ A customer-ready Power BI report for exploring tier-focused Cowork super-user ac
 - [Synthetic people metadata](sample-data/PeopleMetaData.csv)
 - [Release manifest](RELEASE-MANIFEST.md)
 
-## Report pages
+## Eight report pages
 
 | Page | What it answers |
 |---|---|
